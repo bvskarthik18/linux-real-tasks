@@ -2,14 +2,18 @@
 
 ## Task Statement:
 Create a custom Linux user for Apache/web hosting purposes.
- - User name: mariyam
- - Host: app server 2
- - unique UID: 1319
- - home dir: /var/www/mariyam
+
+### Requirements
+ - User name: `mariyam`
+ - Host: `App Server 2`
+ - UID: `1319`
+ - Home Directory: `/var/www/mariyam`
+
+---
 
 ## Solution
 
-Step 1: Connect to App Server 2
+### Step 1: Connect to App Server 2
 
 ```bash
 ssh user@hostname
@@ -32,10 +36,11 @@ Expectd Output:
 mariyam:x:1319:1319::/var/www/mariyam:/bin/bash
 ```
 
-# 🚀 Task completed successfully 🔥
+# Task completed successfully 🚀
 
 ## Skills Learned:
 - Linux User management
 - Custom UID assignment
 - Home directory creation
-- Basic server Administration
+- User Verification Commands
+- Basic Linux Administration
