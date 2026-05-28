@@ -5,7 +5,7 @@
 The system admin team has streamlined access management by implementing group-based access control.
 
 ### Requirements
-- Create a group named `nautilus_developers`
+- Create a group named `developers`
 - Perform the task on all App Servers
 - Add user `stark` to the group
 - Create the user if it does not already exist
@@ -17,7 +17,7 @@ The system admin team has streamlined access management by implementing group-ba
 ### Step 1: Create the Group
 
 ```bash
-sudo groupadd nautilus_developers
+sudo groupadd developers
 ```
 
 ### Step 2: Create User `stark` (if Not exists)
