@@ -1,6 +1,6 @@
-# Day 1 - Linux User Setup
+# Task 1 - Linux User Setup
 
-## Task
+## Task Statement:
 Create a custom Linux user for Apache/web hosting purposes.
  - User name: mariyam
  - Host: app server 2
